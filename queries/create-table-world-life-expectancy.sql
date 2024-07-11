@@ -1,0 +1,20 @@
+CREATE TABLE `world_life_expectancy` (
+  `Country` VARCHAR(1024),
+  `Year` BIGINT,
+  `Status` VARCHAR(1024),
+  `Lifeexpectancy` VARCHAR(1024),
+  `AdultMortality` BIGINT,
+  `infantdeaths` BIGINT,
+  `percentageexpenditure` DOUBLE,
+  `Measles` BIGINT,
+  `BMI` DOUBLE,
+  `under-fivedeaths` BIGINT,
+  `Polio` BIGINT,
+  `Diphtheria` BIGINT,
+  `HIVAIDS` DOUBLE,
+  `GDP` BIGINT,
+  `thinness1-19years` DOUBLE,
+  `thinness5-9years` DOUBLE,
+  `Schooling` DOUBLE,
+  `Row_ID` BIGINT
+);
